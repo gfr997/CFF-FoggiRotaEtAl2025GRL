@@ -14,10 +14,10 @@ _by Giulio Foggi Rota<sup>1</sup>, Alessandro Chiarini<sup>1,2</sup>, and Marco 
 
 ## **Data Structure**
 
-We report data from our simulations over a smooth and a vegetated bed, contained in the respectively named `.zip` archives.  
+We report data from our simulations over a smooth and a vegetated bed, contained in the respectively named folders.  
 
-Each archive includes:  
-* A folder named **_interface_**, containing interface elevation snapshots saved every time unit after reaching steady state.  
+Each folder includes:  
+* A subfolder named **_interface_**, containing interface elevation snapshots saved every time unit after reaching steady state.  
   Files are stored in `.vtk` format and can be visualized with **ParaView**.  
 * A text file named **_stats_fluid.out_** containing averaged flow statistics from the steady state.  
   The file is organized in columns as follows:  
